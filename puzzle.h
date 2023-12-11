@@ -31,4 +31,7 @@ int do_puzzle_1(std::ifstream &file);
 
 int do_puzzle_2(std::ifstream &file);
 
+void expand_universe(std::vector<std::vector<int>> &grid);
+int sum_shortest_distances(std::vector<std::vector<int>> &grid);
+
 #endif //PUZZLE_H
